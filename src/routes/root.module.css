@@ -1,0 +1,24 @@
+.header {
+  background-color: rebeccapurple;
+  display: flex;
+  gap: 16px;
+  padding: 16px 24px;
+}
+
+.header a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+.header a.active {
+  color: blue;
+}
+
+.header a:global(.active) {
+  color: red;
+}
